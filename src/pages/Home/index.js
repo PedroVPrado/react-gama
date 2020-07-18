@@ -21,7 +21,6 @@ export default function Home(props) {
 
   return (
     <S.Container>
-      <p>{usuario}</p>
       <S.Input className="usuarioInput" placeholder="Usuário" value={usuario} onChange={e => setUsuario(e.target.value)} />
       <S.Button type="button" onClick={handlePesquisa}>Pesquisar</S.Button>
     </S.Container>
